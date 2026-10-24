@@ -1,0 +1,59 @@
+{
+  "id": "AD-20261103-AM",
+  "style": "executive",
+  "textStyle": "bold",
+  "division": "FOG Security",
+  "service": "",
+  "sector": "Oil, gas & power",
+  "audience": "Head of security and COO",
+  "format": "Capability explainer",
+  "targetSeconds": 45,
+  "title": "Perimeter intelligence for tank farms and depots",
+  "scenes": [
+    {
+      "kind": "title",
+      "image": "media/exec/tank-farm-aerial.jpg",
+      "eyebrow": "Perimeter intelligence",
+      "headline": "A fence marks the boundary. It does not watch it.",
+      "voice": "A fence marks the boundary of a tank farm or depot, but on its own, it does not watch it.",
+      "focus": "35% 70%"
+    },
+    {
+      "kind": "pillars",
+      "eyebrow": "What we install",
+      "headline": "Perimeter intelligence, layer by layer.",
+      "items": [
+        "Thermal & infrared cameras",
+        "Line-crossing analytics",
+        "Perimeter lighting",
+        "Alarms to a control room"
+      ],
+      "voice": "FOG Technologies Nexus adds the intelligence. Thermal and infrared cameras see through darkness and haze. Line-crossing analytics flag movement at the fence, and perimeter lighting supports clear images."
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/control-room-top.jpg",
+      "eyebrow": "When something crosses the line",
+      "headline": "Detected. Verified. Escalated.",
+      "voice": "When something crosses the line, the alarm goes straight to a control room, where an operator verifies it on camera and escalates it to the people who respond.",
+      "focus": "50% 40%"
+    },
+    {
+      "kind": "cta",
+      "headline": "Request an executive briefing",
+      "lines": [
+        "ceo@fogtechnexus.space",
+        "+234 814 835 5789",
+        "fogtechnexus.space"
+      ],
+      "voice": "Request an executive briefing about perimeter security for your sites. Write to CEO at fogtechnexus.space."
+    }
+  ],
+  "captions": {
+    "linkedin": "A fence marks the boundary of a tank farm or depot. On its own, it does not watch it.\n\nFOG Technologies Nexus adds perimeter intelligence: thermal and infrared cameras that see through darkness and haze, line-crossing analytics at the fence, perimeter lighting, and alarms that go straight to a control room for verification and escalation.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "Thermal cameras, line-crossing analytics, perimeter lighting and alarms to a control room. Perimeter intelligence for tank farms and depots. ceo@fogtechnexus.space",
+    "youtubeTitle": "Perimeter intelligence for tank farms and depots"
+  },
+  "music": "music/bed-exec.wav",
+  "credits": ""
+}

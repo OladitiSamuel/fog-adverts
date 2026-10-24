@@ -1,0 +1,93 @@
+{
+  "id": "AD-20261101-AM",
+  "style": "executive",
+  "division": "FOG Technologies Nexus",
+  "sector": "Launch",
+  "audience": "CEO / MD and board",
+  "format": "Executive briefing",
+  "targetSeconds": 85,
+  "title": "Introducing FOG Technologies Nexus: the infrastructure partner for organisations that cannot afford downtime",
+  "scenes": [
+    {
+      "kind": "title",
+      "image": "media/exec/lagos-satellite.jpg",
+      "eyebrow": "An executive briefing",
+      "headline": "Every serious organisation runs on infrastructure its leaders rarely see.",
+      "voice": "Every serious organisation runs on infrastructure its leaders rarely see. Power, networks, security and data.",
+      "focus": "58% 70%"
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/datacentre.jpg",
+      "eyebrow": "The risk",
+      "headline": "You see it on the day it fails.",
+      "lines": [
+        "A site goes dark.",
+        "A network drops.",
+        "An incident leaves no evidence."
+      ],
+      "voice": "Most leaders only see it on the day it fails. A site goes dark, a network drops, and an incident leaves no evidence. Then every vendor says the problem belongs to someone else.",
+      "focus": "88% 50%"
+    },
+    {
+      "kind": "pillars",
+      "eyebrow": "One partner",
+      "headline": "Eight capabilities. One accountable team.",
+      "items": [
+        "Security & surveillance",
+        "Solar & energy",
+        "Networks & data centres",
+        "Cybersecurity",
+        "Software & digital",
+        "AI & data science",
+        "Automation & IoT",
+        "Communications"
+      ],
+      "voice": "FOG Technologies Nexus brings it together. Security and surveillance, solar and energy, networks and data centres, and cybersecurity. Software, AI and data, automation, and communications. All designed, delivered and supported by one accountable team."
+    },
+    {
+      "kind": "process",
+      "image": "media/exec/server-racks.jpg",
+      "eyebrow": "How we deliver",
+      "headline": "Delivered the way your board expects.",
+      "items": [
+        "Site survey",
+        "Itemised proposal",
+        "Installation",
+        "Testing & commissioning",
+        "Handover & support"
+      ],
+      "voice": "We work the way your board and procurement team expect. A site survey comes first, then an itemised proposal. We install, then test and commission the system with your team, and sign it off together. You receive full documentation at handover, and support after it.",
+      "focus": "60% 50%"
+    },
+    {
+      "kind": "map",
+      "eyebrow": "Who we serve",
+      "headline": "For organisations that cannot afford downtime.",
+      "lines": [
+        "Energy · Banking · Manufacturing · Healthcare",
+        "Estates · Campuses · Logistics · Public institutions"
+      ],
+      "voice": "For energy companies, banks, manufacturers and hospitals. For estates, campuses, logistics operators and public institutions across Nigeria. That means fewer points of failure, and one partner who owns the fix."
+    },
+    {
+      "kind": "cta",
+      "headline": "Request an executive briefing",
+      "lines": [
+        "ceo@fogtechnexus.space",
+        "+234 814 835 5789",
+        "fogtechnexus.space"
+      ],
+      "voice": "Request an executive briefing with FOG Technologies Nexus. Write to CEO at fogtechnexus.space."
+    }
+  ],
+  "captions": {
+    "linkedin": "Every serious organisation runs on infrastructure its leaders rarely see: power, networks, security and data. You see it on the day it fails, and too often every vendor says the problem belongs to someone else.\n\nFOG Technologies Nexus brings eight capabilities under one accountable team: security and surveillance, solar and energy, networks and data centres, cybersecurity, software, AI and data science, automation and IoT, and communications. We survey first, quote itemised, commission with your team and hand over full documentation.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "One accountable partner for security, power, networks, cybersecurity and software, built for organisations that cannot afford downtime. Request an executive briefing: ceo@fogtechnexus.space",
+    "youtubeTitle": "FOG Technologies Nexus: one accountable infrastructure partner"
+  },
+  "music": "music/bed-exec.wav",
+  "service": "Integrated infrastructure",
+  "credits": "Imagery: contains modified Copernicus Sentinel data, processed by Sentinel Hub (CC BY 2.0) · ESO (CC BY 4.0) · CSIRO (CC BY 3.0)",
+  "textStyle": "light"
+}

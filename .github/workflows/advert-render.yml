@@ -1,0 +1,76 @@
+name: Advert render worker
+
+# Cloud fallback for the FOG Adverts render worker, so adverts render even
+# when the office PC is off. Every 30 minutes it asks FOG Nexus whether an
+# advert is waiting (a few seconds); only then does it install the voice
+# models and render one advert (~60–100 min on a 4-core runner).
+#
+# Needs repository secret FOG_WORKER_TOKEN (a worker registered in FOG Nexus under
+# Platform → Workers with the "Advert rendering" capability).
+# Minutes: free and unlimited on a PUBLIC repository; a private repository
+# on the free plan has 2,000 minutes a month (roughly 20 adverts).
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: advert-render
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    env:
+      FOG_NEXUS_URL: https://fogtechnexus.space
+      FOG_WORKER_TOKEN: ${{ secrets.FOG_WORKER_TOKEN }}
+    steps:
+      - name: Anything to render?
+        id: check
+        run: |
+          if [ -z "$FOG_WORKER_TOKEN" ]; then echo "FOG_WORKER_TOKEN not set"; echo "go=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          n=$(curl -sS --max-time 30 -H "Authorization: Bearer $FOG_WORKER_TOKEN" "$FOG_NEXUS_URL/api/adverts/worker/pending" | python3 -c "import json,sys; print(json.load(sys.stdin).get('pending', 0))")
+          echo "pending: $n"; echo "go=$([ "$n" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
+      - if: steps.check.outputs.go == 'true'
+        uses: actions/checkout@v4
+
+      - if: steps.check.outputs.go == 'true'
+        uses: astral-sh/setup-uv@v6
+
+      - if: steps.check.outputs.go == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: renderer/package-lock.json
+
+      - if: steps.check.outputs.go == 'true'
+        name: Cache voice models
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-chatterbox-0.1.7-whisper-small
+
+      - if: steps.check.outputs.go == 'true'
+        name: Voice environments
+        run: |
+          cd voice
+          uv venv --python 3.11 .venv-cb && uv pip install --python .venv-cb/bin/python --index-strategy unsafe-best-match --extra-index-url https://download.pytorch.org/whl/cpu -r requirements-cb.txt
+          uv venv --python 3.11 .venv-yarn && uv pip install --python .venv-yarn/bin/python -r requirements-eval.txt
+
+      - if: steps.check.outputs.go == 'true'
+        name: Music bed (generated, not stored in git)
+        run: cd voice && .venv-yarn/bin/python make_bed_exec.py --seconds 100 --out ../renderer/public/music/bed-exec.wav
+
+      - if: steps.check.outputs.go == 'true'
+        name: Renderer
+        run: cd renderer && npm ci && npx remotion browser ensure
+
+      - if: steps.check.outputs.go == 'true'
+        name: Render one advert
+        run: python3 worker/worker.py --once

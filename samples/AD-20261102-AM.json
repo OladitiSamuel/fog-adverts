@@ -1,0 +1,86 @@
+{
+  "id": "AD-20261102-AM",
+  "style": "executive",
+  "textStyle": "bold",
+  "division": "FOG Technologies Nexus",
+  "service": "",
+  "sector": "Oil, gas & power",
+  "audience": "CEO / MD and board",
+  "format": "Executive briefing",
+  "targetSeconds": 85,
+  "title": "Oil, gas and power: one accountable partner for security, power and networks",
+  "scenes": [
+    {
+      "kind": "title",
+      "image": "media/exec/refinery-night.jpg",
+      "eyebrow": "Oil, gas and power",
+      "headline": "Your most critical sites are often your most remote.",
+      "voice": "In oil, gas and power, the sites that matter most are often the hardest to reach. Depots, tank farms, flow stations and substations, far away from head office.",
+      "focus": "40% 60%"
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/tank-farm-aerial.jpg",
+      "eyebrow": "What every site needs",
+      "headline": "Four systems that must work as one.",
+      "lines": [
+        "Perimeter security and surveillance",
+        "Reliable backup power",
+        "A link back to base",
+        "A control room that sees it all"
+      ],
+      "voice": "Each of these sites needs four things working together. Perimeter security and surveillance, reliable backup power, a communication link back to base, and a control room that sees everything as it happens.",
+      "focus": "35% 70%"
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/refinery-fog-night.jpg",
+      "eyebrow": "The risk",
+      "headline": "When they come from different vendors, the gaps are yours.",
+      "voice": "When those systems come from different vendors, the gaps between them become your risk. A camera without power records nothing, and an alarm without a link reaches no one.",
+      "focus": "62% 50%"
+    },
+    {
+      "kind": "process",
+      "image": "media/exec/engineer-hivis.jpg",
+      "eyebrow": "One accountable partner",
+      "headline": "Designed, installed and maintained as one.",
+      "items": [
+        "Site survey",
+        "Integrated design",
+        "Installation",
+        "Commissioning",
+        "Maintenance"
+      ],
+      "voice": "FOG Technologies Nexus designs, installs and maintains all four as one system. We survey every site first, design security, power and links together, commission them with your team, and maintain them after handover.",
+      "focus": "45% 40%"
+    },
+    {
+      "kind": "map",
+      "eyebrow": "Across Nigeria",
+      "headline": "Wherever your sites are.",
+      "lines": [
+        "Depots · Tank farms · Flow stations",
+        "Substations · Offices · Control rooms"
+      ],
+      "voice": "Our team works from Ibadan, and travels to your sites wherever they are in Nigeria."
+    },
+    {
+      "kind": "cta",
+      "headline": "Request an executive briefing",
+      "lines": [
+        "ceo@fogtechnexus.space",
+        "+234 814 835 5789",
+        "fogtechnexus.space"
+      ],
+      "voice": "This week, FOG Technologies Nexus is focused on oil, gas and power. Request an executive briefing, and write to CEO at fogtechnexus.space."
+    }
+  ],
+  "captions": {
+    "linkedin": "In oil, gas and power, the most critical sites are often the most remote: depots, tank farms, flow stations and substations.\n\nEach needs perimeter security, reliable backup power, a link back to base and a control room, working as one. When they come from different vendors, the gaps between them become your risk. FOG Technologies Nexus designs, installs and maintains all four as one system, wherever your sites are in Nigeria.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "Remote depots, tank farms and flow stations need security, power, links and a control room working as one. One accountable partner: FOG Technologies Nexus. ceo@fogtechnexus.space",
+    "youtubeTitle": "Oil, gas and power: one partner for security, power and networks"
+  },
+  "music": "music/bed-exec.wav",
+  "credits": "Imagery: Zeev Stein / PikiWiki (CC BY 2.5) · MTA (CC BY 2.0)"
+}

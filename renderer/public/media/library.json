@@ -1,0 +1,71 @@
+{
+  "note": "Photo library the render worker picks from by matching a scene's visual phrase against tags. Add sector photos here (with credit) to widen coverage; see media/exec/CREDITS.md.",
+  "images": [
+    {
+      "file": "media/exec/lagos-satellite.jpg",
+      "focus": "58% 70%",
+      "credit": "Copernicus Sentinel data / Sentinel Hub (CC BY 2.0)",
+      "tags": "lagos nigeria city skyline satellite aerial map coast country national infrastructure organisation"
+    },
+    {
+      "file": "media/exec/datacentre.jpg",
+      "focus": "88% 50%",
+      "credit": "ESO (CC BY 4.0)",
+      "tags": "data centre center server room network it outage risk dark failure downtime cyber cybersecurity ransomware hospital records bank"
+    },
+    {
+      "file": "media/exec/server-racks.jpg",
+      "focus": "60% 50%",
+      "credit": "CSIRO (CC BY 3.0)",
+      "tags": "servers racks data cloud software digital analytics ai computing storage backup documentation cabling"
+    },
+    {
+      "file": "media/exec/refinery-night.jpg",
+      "focus": "40% 60%",
+      "credit": "Zeev Stein / PikiWiki (CC BY 2.5)",
+      "tags": "oil gas refinery plant industrial power energy night factory manufacturing processing"
+    },
+    {
+      "file": "media/exec/refinery-fog-night.jpg",
+      "focus": "62% 50%",
+      "credit": null,
+      "tags": "remote site night dark outage fog plant perimeter flow station substation"
+    },
+    {
+      "file": "media/exec/tank-farm-aerial.jpg",
+      "focus": "35% 70%",
+      "credit": null,
+      "tags": "tank farm depot oil storage tanks aerial terminal port logistics warehouse yard"
+    },
+    {
+      "file": "media/exec/engineer-hivis.jpg",
+      "focus": "45% 40%",
+      "credit": "MTA (CC BY 2.0)",
+      "tags": "engineer technician installation install wiring maintenance team survey commissioning handover support delivery electrician"
+    },
+    {
+      "file": "media/exec/control-room-top.jpg",
+      "focus": "50% 40%",
+      "credit": null,
+      "tags": "control room monitoring command centre center operations screens operator alarm response visibility"
+    },
+    {
+      "file": "media/cams-wall.jpg",
+      "focus": "50% 40%",
+      "credit": null,
+      "tags": "cctv camera cameras surveillance security video evidence"
+    },
+    {
+      "file": "media/cam-night.jpg",
+      "focus": "50% 50%",
+      "credit": null,
+      "tags": "cctv camera night surveillance security perimeter thermal infrared"
+    },
+    {
+      "file": "media/cam-building.jpg",
+      "focus": "50% 40%",
+      "credit": null,
+      "tags": "cctv camera building office headquarters estate security access"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Dependencies and environments
+node_modules/
+.venv*/
+__pycache__/
+# Model weights (downloaded on first run) and third-party clones
+voice/models/
+voice/yarngpt/
+# Generated: voice takes, assembled tracks, render inputs and outputs
+voice/work/
+renderer/props/
+renderer/out/
+renderer/public/voice/
+# Music beds are generated (voice/make_bed*.py); keep the repo small
+renderer/public/music/*.wav
+samples/review.html
+*.log
+.env*

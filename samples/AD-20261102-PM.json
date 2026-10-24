@@ -1,0 +1,71 @@
+{
+  "id": "AD-20261102-PM",
+  "style": "executive",
+  "textStyle": "bold",
+  "division": "FOG Security",
+  "service": "",
+  "sector": "Oil, gas & power",
+  "audience": "CEO and COO",
+  "format": "Risk scenario",
+  "targetSeconds": 55,
+  "title": "When a remote site goes dark, what do you lose?",
+  "scenes": [
+    {
+      "kind": "title",
+      "image": "media/exec/refinery-fog-night.jpg",
+      "eyebrow": "A risk scenario",
+      "headline": "When a remote site goes dark, what do you lose?",
+      "voice": "Picture a remote site at two in the morning. The grid fails, and the backup supply does not start.",
+      "focus": "62% 50%"
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/tank-farm-aerial.jpg",
+      "eyebrow": "What happens next",
+      "headline": "No power. No cameras. No alarm.",
+      "lines": [
+        "Cameras stop recording",
+        "The link to base goes down",
+        "Nobody knows until morning"
+      ],
+      "voice": "The cameras stop recording, and the link back to base goes down with them. Whatever happens next leaves no evidence, and nobody knows until the morning shift arrives.",
+      "focus": "35% 70%"
+    },
+    {
+      "kind": "statement",
+      "eyebrow": "The real cost",
+      "headline": "It is not the outage. It is what you cannot prove.",
+      "voice": "The real loss is not the outage itself. It is the stock you cannot account for, the incident you cannot investigate, and the question from the board that you cannot answer."
+    },
+    {
+      "kind": "process",
+      "image": "media/exec/control-room-top.jpg",
+      "eyebrow": "Layered design",
+      "headline": "Remove the single points of failure.",
+      "items": [
+        "Backup power for cameras and recorders",
+        "A second link to the control room",
+        "Alarms that escalate automatically"
+      ],
+      "voice": "Layered design removes those single points of failure. Backup power for cameras and recorders, a second link to the control room, and alarms that escalate as soon as anything drops.",
+      "focus": "50% 40%"
+    },
+    {
+      "kind": "cta",
+      "headline": "Request an executive briefing",
+      "lines": [
+        "ceo@fogtechnexus.space",
+        "+234 814 835 5789",
+        "fogtechnexus.space"
+      ],
+      "voice": "FOG Technologies Nexus designs remote sites that stay visible. Request an executive briefing, and write to CEO at fogtechnexus.space."
+    }
+  ],
+  "captions": {
+    "linkedin": "Picture a remote site at two in the morning. The grid fails and the backup supply does not start. Cameras stop recording, the link to base drops, and nobody knows until the morning shift.\n\nThe real cost is not the outage. It is what you cannot prove afterwards. Layered design removes the single points of failure: backup power for cameras and recorders, a second link to the control room, and alarms that escalate automatically.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "When a remote site goes dark, the real cost is what you cannot prove afterwards. Layered design removes single points of failure. ceo@fogtechnexus.space",
+    "youtubeTitle": "When a remote site goes dark, what do you lose?"
+  },
+  "music": "music/bed-exec.wav",
+  "credits": ""
+}

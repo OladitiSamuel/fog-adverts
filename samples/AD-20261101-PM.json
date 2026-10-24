@@ -1,0 +1,94 @@
+{
+  "id": "AD-20261101-PM",
+  "style": "executive",
+  "textStyle": "bold",
+  "division": "FOG Technologies Nexus",
+  "service": "",
+  "sector": "Launch",
+  "audience": "CEO and COO",
+  "format": "Story / walkthrough",
+  "targetSeconds": 75,
+  "title": "Eight divisions, one accountable team",
+  "scenes": [
+    {
+      "kind": "title",
+      "image": "media/exec/engineer-hivis.jpg",
+      "eyebrow": "Integrated delivery",
+      "headline": "Eight divisions. One accountable team.",
+      "voice": "Most large organisations buy their infrastructure in pieces, from many different vendors. One installs the cameras, another the power, and others the network and the software.",
+      "focus": "45% 40%"
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/datacentre.jpg",
+      "eyebrow": "The problem",
+      "headline": "When something fails, who owns the fix?",
+      "lines": [
+        "Separate contracts",
+        "Separate drawings",
+        "Separate answers"
+      ],
+      "voice": "When something fails, each vendor checks only their own part. The investigation takes days, and the problem sits between the contracts, where nobody is responsible for it.",
+      "focus": "88% 50%"
+    },
+    {
+      "kind": "pillars",
+      "eyebrow": "One plan",
+      "headline": "Designed together from the first survey.",
+      "items": [
+        "Security & surveillance",
+        "Solar & energy",
+        "Networks & data centres",
+        "Cybersecurity",
+        "Software & digital",
+        "AI & data science",
+        "Automation & IoT",
+        "Communications"
+      ],
+      "voice": "FOG Technologies Nexus works differently. Security, power, networks and cybersecurity, with software, data, automation and communications, are planned together as one design, from the very first site survey."
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/control-room-top.jpg",
+      "eyebrow": "One point of accountability",
+      "headline": "One team answers for the whole system.",
+      "lines": [
+        "One project lead",
+        "One escalation path",
+        "One support team"
+      ],
+      "voice": "During delivery you deal with one project lead. After handover, one support team answers for the whole system, so every fault is traced from end to end instead of being passed around.",
+      "focus": "50% 40%"
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/server-racks.jpg",
+      "eyebrow": "One set of documentation",
+      "headline": "Everything installed, documented in one place.",
+      "lines": [
+        "As-built drawings",
+        "Commissioning reports",
+        "Handover training records"
+      ],
+      "voice": "At handover you receive one set of documentation. As-built drawings, commissioning reports and training records for every system we installed, kept in one place your team can use.",
+      "focus": "60% 50%"
+    },
+    {
+      "kind": "cta",
+      "headline": "Request an executive briefing",
+      "lines": [
+        "ceo@fogtechnexus.space",
+        "+234 814 835 5789",
+        "fogtechnexus.space"
+      ],
+      "voice": "To see what integrated delivery would mean for your organisation, request an executive briefing with FOG Technologies Nexus. Write to CEO at fogtechnexus.space."
+    }
+  ],
+  "captions": {
+    "linkedin": "Most large organisations buy infrastructure in pieces: one vendor for cameras, another for power, others for the network and software. When something fails, the problem sits between the contracts.\n\nFOG Technologies Nexus plans security, power, networks, cybersecurity, software, data, automation and communications as one design, delivered by one project lead, supported by one team, and handed over with one set of documentation.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "One plan. One point of accountability. One set of documentation. Integrated infrastructure delivery from FOG Technologies Nexus. Request an executive briefing: ceo@fogtechnexus.space",
+    "youtubeTitle": "Eight divisions, one accountable team | FOG Technologies Nexus"
+  },
+  "music": "music/bed-exec.wav",
+  "credits": "Imagery: MTA (CC BY 2.0) · ESO (CC BY 4.0) · CSIRO (CC BY 3.0)"
+}

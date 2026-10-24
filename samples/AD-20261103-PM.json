@@ -1,0 +1,58 @@
+{
+  "id": "AD-20261103-PM",
+  "style": "executive",
+  "textStyle": "bold",
+  "division": "FOG Security",
+  "service": "",
+  "sector": "Oil, gas & power",
+  "audience": "Board and CEO",
+  "format": "Board question",
+  "targetSeconds": 40,
+  "title": "Board question: can we see every critical site right now?",
+  "scenes": [
+    {
+      "kind": "title",
+      "eyebrow": "A question for the board",
+      "headline": "Can we see every critical site right now?",
+      "voice": "Here is a question every board should be able to answer. Can we see every critical site, right now?"
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/control-room-top.jpg",
+      "eyebrow": "A good answer needs",
+      "headline": "Visibility, a record, and a clear owner.",
+      "lines": [
+        "Central visibility of every site",
+        "An audit trail of every incident",
+        "A clear owner for every response"
+      ],
+      "voice": "A good answer to that question needs three things. Central visibility of every site, an audit trail of every incident, and a clear answer to who responds when something happens.",
+      "focus": "50% 40%"
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/datacentre.jpg",
+      "eyebrow": "How FOG helps",
+      "headline": "Make the answer provable.",
+      "voice": "FOG Technologies Nexus builds the cameras, links and control room that make that answer possible, and documents them so your team can prove it.",
+      "focus": "88% 50%"
+    },
+    {
+      "kind": "cta",
+      "headline": "Request an executive briefing",
+      "lines": [
+        "ceo@fogtechnexus.space",
+        "+234 814 835 5789",
+        "fogtechnexus.space"
+      ],
+      "voice": "If your board is asking, request an executive briefing. Write to CEO at fogtechnexus.space."
+    }
+  ],
+  "captions": {
+    "linkedin": "A question every board should be able to answer: can we see every critical site, right now?\n\nA good answer needs central visibility of every site, an audit trail of every incident, and a clear owner for every response. FOG Technologies Nexus builds the cameras, links and control room that make the answer possible, and documents them so your team can prove it.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "Board question: can we see every critical site right now? Visibility, an audit trail and a clear owner make the answer provable. ceo@fogtechnexus.space",
+    "youtubeTitle": "Board question: can we see every critical site right now?"
+  },
+  "music": "music/bed-exec.wav",
+  "credits": "Imagery: ESO (CC BY 4.0)"
+}

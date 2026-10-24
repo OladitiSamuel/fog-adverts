@@ -1,0 +1,11 @@
+[Unit]
+Description=FOG Adverts render worker (one job)
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/FOG/projects/fog-adverts
+# flock: never two renders at once on this machine.
+ExecStart=/usr/bin/flock -n %t/fog-advert-worker.lock /usr/bin/python3 %h/FOG/projects/fog-adverts/worker/worker.py --once
+Nice=10
+TimeoutStartSec=6h
