@@ -73,7 +73,7 @@ jobs:
 
       - if: steps.check.outputs.go == 'true'
         name: Music bed (generated, not stored in git)
-        run: cd voice && .venv-yarn/bin/python make_bed_exec.py --seconds 100 --out ../renderer/public/music/bed-exec.wav
+        run: mkdir -p renderer/public/music && cd voice && .venv-yarn/bin/python make_bed_exec.py --seconds 100 --out ../renderer/public/music/bed-exec.wav
 
       - if: steps.check.outputs.go == 'true'
         name: Renderer
