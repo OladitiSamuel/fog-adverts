@@ -13,6 +13,11 @@ on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
+    inputs:
+      test_spec:
+        description: "Test only: render this samples/<ID>.json end to end (no FOG Nexus, nothing uploaded)"
+        required: false
+        default: ""
 
 concurrency:
   group: advert-render
@@ -31,7 +36,10 @@ jobs:
     steps:
       - name: Anything to render?
         id: check
+        env:
+          TEST_SPEC: ${{ inputs.test_spec }}
         run: |
+          if [ -n "$TEST_SPEC" ]; then echo "test render of $TEST_SPEC"; echo "go=true" >> "$GITHUB_OUTPUT"; exit 0; fi
           if [ -z "$FOG_WORKER_TOKEN" ]; then echo "FOG_WORKER_TOKEN not set"; echo "go=false" >> "$GITHUB_OUTPUT"; exit 0; fi
           n=$(curl -sS --max-time 30 -H "Authorization: Bearer $FOG_WORKER_TOKEN" "$FOG_NEXUS_URL/api/adverts/worker/pending" | python3 -c "import json,sys; print(json.load(sys.stdin).get('pending', 0))")
           echo "pending: $n"; echo "go=$([ "$n" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
@@ -71,6 +79,19 @@ jobs:
         name: Renderer
         run: cd renderer && npm ci && npx remotion browser ensure
 
-      - if: steps.check.outputs.go == 'true'
+      - if: steps.check.outputs.go == 'true' && inputs.test_spec == ''
         name: Render one advert
         run: python3 worker/worker.py --once
+
+      - if: steps.check.outputs.go == 'true' && inputs.test_spec != ''
+        name: Test render (not uploaded)
+        run: |
+          voice/chain.sh "${{ inputs.test_spec }}"
+          ls -la renderer/out/
+
+      - if: steps.check.outputs.go == 'true' && inputs.test_spec != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-render
+          path: renderer/out/*.mp4
+          retention-days: 3
