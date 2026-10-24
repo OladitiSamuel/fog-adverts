@@ -1,0 +1,64 @@
+{
+  "id": "AD-20261104-PM",
+  "style": "executive",
+  "textStyle": "bold",
+  "division": "FOG Solar & Energy",
+  "service": "",
+  "sector": "Oil, gas & power",
+  "audience": "Senior leadership",
+  "format": "Myth vs reality",
+  "targetSeconds": 40,
+  "title": "Myth: a generator is enough backup for critical systems",
+  "scenes": [
+    {
+      "kind": "title",
+      "image": "media/exec/refinery-night.jpg",
+      "eyebrow": "Myth",
+      "headline": "A generator is enough backup for critical systems.",
+      "voice": "Many organisations believe a generator is all the backup their critical systems will ever need.",
+      "focus": "40% 60%"
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/datacentre.jpg",
+      "eyebrow": "Reality",
+      "headline": "Generators start late, need fuel, and fail unnoticed.",
+      "lines": [
+        "Start-up delay drops sensitive equipment",
+        "Fuel must reach the site in time",
+        "A missed service shows up on the worst day"
+      ],
+      "voice": "In reality, a generator takes time to start, and sensitive equipment drops in that gap. It depends on fuel reaching the site, and a missed service only shows up on the worst possible day.",
+      "focus": "88% 50%"
+    },
+    {
+      "kind": "pillars",
+      "eyebrow": "What works",
+      "headline": "Layer the backup.",
+      "items": [
+        "UPS for instant ride-through",
+        "Batteries for the hours",
+        "Solar to recharge",
+        "Generator as the last layer"
+      ],
+      "voice": "Critical loads need several layers of protection working together. A UPS for the first seconds, batteries for the hours, solar to recharge them, and the generator as the last layer."
+    },
+    {
+      "kind": "cta",
+      "headline": "Request an executive briefing",
+      "lines": [
+        "ceo@fogtechnexus.space",
+        "+234 814 835 5789",
+        "fogtechnexus.space"
+      ],
+      "voice": "FOG Technologies Nexus designs layered backup power for critical systems. Request an executive briefing at CEO at fogtechnexus.space."
+    }
+  ],
+  "captions": {
+    "linkedin": "Myth: a generator is enough backup for critical systems.\n\nReality: it takes time to start, depends on fuel reaching the site, and a missed service shows up on the worst day. Critical loads need layers: a UPS for the first seconds, batteries for the hours, solar to recharge them, and the generator as the last layer.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "Myth: a generator is enough backup. Reality: critical loads need UPS, batteries and solar layered together. ceo@fogtechnexus.space",
+    "youtubeTitle": "Myth: a generator is enough backup for critical systems"
+  },
+  "music": "music/bed-exec.wav",
+  "credits": "Imagery: Zeev Stein / PikiWiki (CC BY 2.5) · ESO (CC BY 4.0)"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "AD-20261106-AM",
+  "style": "executive",
+  "textStyle": "bold",
+  "division": "FOG Software & Digital",
+  "service": "",
+  "sector": "Oil, gas & power",
+  "audience": "CEO and CIO",
+  "format": "Capability explainer",
+  "targetSeconds": 45,
+  "title": "One dashboard for every site",
+  "scenes": [
+    {
+      "kind": "title",
+      "image": "media/exec/control-room-top.jpg",
+      "eyebrow": "Operations visibility",
+      "headline": "How many systems does it take to know how your sites are doing?",
+      "voice": "In many organisations, knowing how every site is doing takes several systems, a few spreadsheets, and a round of phone calls.",
+      "focus": "50% 40%"
+    },
+    {
+      "kind": "pillars",
+      "eyebrow": "One view",
+      "headline": "One dashboard for every site.",
+      "items": [
+        "Incidents",
+        "Maintenance",
+        "Uptime",
+        "Open actions"
+      ],
+      "voice": "FOG Technologies Nexus builds operations platforms that bring incidents, maintenance and uptime across every location into one view your leadership can trust."
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/server-racks.jpg",
+      "eyebrow": "Built and used by us",
+      "headline": "We run our own business on a platform we built.",
+      "voice": "We run our own business on a platform we built ourselves, so we know what a leadership team needs to see every morning.",
+      "focus": "60% 50%"
+    },
+    {
+      "kind": "cta",
+      "headline": "Request an executive briefing",
+      "lines": [
+        "ceo@fogtechnexus.space",
+        "+234 814 835 5789",
+        "fogtechnexus.space"
+      ],
+      "voice": "Request an executive briefing, and see what one view of your sites would look like. Write to CEO at fogtechnexus.space."
+    }
+  ],
+  "captions": {
+    "linkedin": "Knowing how every site is doing often takes several systems, a few spreadsheets and a round of phone calls.\n\nFOG Technologies Nexus builds operations platforms that bring incidents, maintenance and uptime across every location into one view. We run our own business on a platform we built, so we know what a leadership team needs to see every morning.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "Incidents, maintenance and uptime across every site in one view. We run our own business on a platform we built. ceo@fogtechnexus.space",
+    "youtubeTitle": "One dashboard for every site"
+  },
+  "music": "music/bed-exec.wav",
+  "credits": "Imagery: CSIRO (CC BY 3.0)"
+}

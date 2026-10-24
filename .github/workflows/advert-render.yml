@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
     inputs:
       test_spec:
-        description: "Test only: render this samples/<ID>.json end to end (no FOG Nexus, nothing uploaded)"
+        description: "Test/manual: render samples/<ID>.json end to end, several IDs space-separated (no FOG Nexus, nothing uploaded)"
         required: false
         default: ""
 
@@ -85,8 +85,11 @@ jobs:
 
       - if: steps.check.outputs.go == 'true' && inputs.test_spec != ''
         name: Test render (not uploaded)
+        env:
+          TEST_SPEC: ${{ inputs.test_spec }}
         run: |
-          voice/chain.sh "${{ inputs.test_spec }}"
+          # One or more sample IDs, space-separated.
+          voice/chain.sh $TEST_SPEC
           ls -la renderer/out/
 
       - if: steps.check.outputs.go == 'true' && inputs.test_spec != ''

@@ -1,0 +1,74 @@
+{
+  "id": "AD-20261105-PM",
+  "style": "executive",
+  "textStyle": "bold",
+  "division": "FOG Networks & Infrastructure",
+  "service": "",
+  "sector": "Oil, gas & power",
+  "audience": "CIO / CTO",
+  "format": "Capability explainer",
+  "targetSeconds": 75,
+  "title": "Linking sites kilometres apart",
+  "scenes": [
+    {
+      "kind": "title",
+      "image": "media/exec/microwave-tower.jpg",
+      "eyebrow": "Connecting your sites",
+      "headline": "Your gatehouse, plant and offices may be kilometres apart.",
+      "voice": "On large sites, the gatehouse, the plant and the offices can be kilometres apart, and every camera, alarm and system depends on the link between them.",
+      "focus": "55% 40%"
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/refinery-fog-night.jpg",
+      "eyebrow": "When the link fails",
+      "headline": "Every system on the far side goes blind.",
+      "lines": [
+        "Cameras stop reaching the control room",
+        "Access control loses its records",
+        "Teams work from guesswork"
+      ],
+      "voice": "When that link fails, cameras stop reaching the control room, access control loses contact with its records, and the teams on the far side work from guesswork.",
+      "focus": "62% 50%"
+    },
+    {
+      "kind": "pillars",
+      "eyebrow": "What we build",
+      "headline": "Links built to stay up.",
+      "items": [
+        "Point-to-point wireless",
+        "Fibre backbones",
+        "Backup paths",
+        "Link monitoring"
+      ],
+      "voice": "FOG Technologies Nexus builds the links between your sites. Point-to-point wireless where trenching is impractical, fibre backbones where capacity matters, and backup paths with monitoring, so a failure is noticed and rerouted. Each link is tested and documented at handover, with the readings your engineers will need later."
+    },
+    {
+      "kind": "map",
+      "eyebrow": "Across Nigeria",
+      "headline": "Wherever your sites are.",
+      "lines": [
+        "Gatehouses · Plants · Offices",
+        "Depots · Substations · Control rooms"
+      ],
+      "voice": "We work from Ibadan, and we travel to your sites wherever they are in Nigeria."
+    },
+    {
+      "kind": "cta",
+      "headline": "Request an executive briefing",
+      "lines": [
+        "ceo@fogtechnexus.space",
+        "+234 814 835 5789",
+        "fogtechnexus.space"
+      ],
+      "voice": "Request an executive briefing on connecting your sites. Write to CEO at fogtechnexus.space."
+    }
+  ],
+  "captions": {
+    "linkedin": "On large sites the gatehouse, plant and offices can be kilometres apart, and every camera, alarm and system depends on the link between them.\n\nFOG Technologies Nexus builds those links to stay up: point-to-point wireless where trenching is impractical, fibre backbones where capacity matters, and backup paths with monitoring so a failure is noticed and rerouted.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "Gatehouse, plant and offices kilometres apart? Point-to-point wireless, fibre backbones and backup paths, built to stay up. ceo@fogtechnexus.space",
+    "youtubeTitle": "Linking sites kilometres apart: wireless and fibre built to stay up"
+  },
+  "music": "music/bed-exec.wav",
+  "credits": "Imagery: Kkiefuik (CC BY 4.0)"
+}

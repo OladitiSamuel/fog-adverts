@@ -1,0 +1,64 @@
+{
+  "id": "AD-20261106-PM",
+  "style": "executive",
+  "textStyle": "bold",
+  "division": "FOG Technologies Nexus",
+  "service": "",
+  "sector": "Oil, gas & power",
+  "audience": "COO, procurement and project sponsors",
+  "format": "How FOG delivers",
+  "targetSeconds": 55,
+  "title": "How FOG delivers: survey, itemised quote with a ceiling, commissioning report",
+  "scenes": [
+    {
+      "kind": "title",
+      "image": "media/exec/engineer-hivis.jpg",
+      "eyebrow": "How FOG delivers",
+      "headline": "The paper trail your procurement team wants.",
+      "voice": "Procurement teams and project sponsors need more than a promise. They need a paper trail they can check at every stage of the project.",
+      "focus": "45% 40%"
+    },
+    {
+      "kind": "process",
+      "eyebrow": "Every project",
+      "headline": "From survey to signed commissioning.",
+      "items": [
+        "Site survey",
+        "Itemised quotation with a ceiling",
+        "Tested installation",
+        "Signed commissioning report"
+      ],
+      "voice": "Every FOG Technologies Nexus project starts with a site survey. The quotation is itemised, showing what is firm, what is provisional, and the ceiling. Every installation is tested, and handed over with a signed commissioning report."
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/server-racks.jpg",
+      "eyebrow": "What you keep",
+      "headline": "Records that survive staff changes.",
+      "lines": [
+        "As-built drawings",
+        "Test results",
+        "Commissioning sign-off"
+      ],
+      "voice": "You keep the as-built drawings, the test results and the commissioning sign-off, long after the people who ran the project have moved on.",
+      "focus": "60% 50%"
+    },
+    {
+      "kind": "cta",
+      "headline": "Request an executive briefing",
+      "lines": [
+        "ceo@fogtechnexus.space",
+        "+234 814 835 5789",
+        "fogtechnexus.space"
+      ],
+      "voice": "Request an executive briefing on how we would deliver your next project. Write to CEO at fogtechnexus.space."
+    }
+  ],
+  "captions": {
+    "linkedin": "Procurement teams and project sponsors need more than a promise: they need a paper trail they can check.\n\nEvery FOG Technologies Nexus project starts with a site survey. The quotation is itemised, showing what is firm, what is provisional and the ceiling. Every installation is tested and handed over with a signed commissioning report, as-built drawings and test results that stay with you.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "Site survey, itemised quotation with a ceiling, tested installation, signed commissioning report. The paper trail procurement wants. ceo@fogtechnexus.space",
+    "youtubeTitle": "How FOG delivers: from survey to signed commissioning"
+  },
+  "music": "music/bed-exec.wav",
+  "credits": "Imagery: MTA (CC BY 2.0) · CSIRO (CC BY 3.0)"
+}

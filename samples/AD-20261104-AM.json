@@ -1,0 +1,66 @@
+{
+  "id": "AD-20261104-AM",
+  "style": "executive",
+  "textStyle": "bold",
+  "division": "FOG Solar & Energy",
+  "service": "",
+  "sector": "Oil, gas & power",
+  "audience": "COO and CFO",
+  "format": "Capability explainer",
+  "targetSeconds": 60,
+  "title": "Solar-hybrid power for remote and off-grid installations",
+  "scenes": [
+    {
+      "kind": "title",
+      "image": "media/exec/solar-farm-aerial.jpg",
+      "eyebrow": "Power for remote sites",
+      "headline": "When the grid fails and the generator stops, what keeps running?",
+      "voice": "At a remote site, the grid fails often, and sooner or later the generator stops as well. When it does, the systems that protect the site go down with it.",
+      "focus": "50% 50%"
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/refinery-fog-night.jpg",
+      "eyebrow": "What must stay on",
+      "headline": "The loads that protect the site.",
+      "lines": [
+        "Cameras and recorders",
+        "Communication links",
+        "Control and monitoring equipment"
+      ],
+      "voice": "Cameras and recorders, the communication link back to base, and the control equipment that monitors the plant. These are the loads that cannot be allowed to drop.",
+      "focus": "62% 50%"
+    },
+    {
+      "kind": "process",
+      "image": "media/exec/engineer-hivis.jpg",
+      "eyebrow": "Solar-hybrid design",
+      "headline": "Sized from your real load, not a guess.",
+      "items": [
+        "Load survey",
+        "Solar and battery sizing",
+        "Automatic changeover",
+        "Remote monitoring"
+      ],
+      "voice": "FOG Technologies Nexus designs solar-hybrid systems for these critical loads. We survey the real load first, size the solar and batteries to match it, add automatic changeover between sources, and monitor the system remotely. The generator stays as the last layer, used only when it is really needed.",
+      "focus": "45% 40%"
+    },
+    {
+      "kind": "cta",
+      "headline": "Request an executive briefing",
+      "lines": [
+        "ceo@fogtechnexus.space",
+        "+234 814 835 5789",
+        "fogtechnexus.space"
+      ],
+      "voice": "Request an executive briefing on power for your remote sites. Write to CEO at fogtechnexus.space."
+    }
+  ],
+  "captions": {
+    "linkedin": "At a remote site the grid fails often, and sooner or later the generator stops too. When it does, the systems that protect the site go down with it.\n\nFOG Technologies Nexus designs solar-hybrid power for the loads that cannot drop: cameras and recorders, communication links, and control equipment. We survey the real load, size solar and batteries to match, add automatic changeover and monitor the system remotely.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "Solar-hybrid power for remote and off-grid sites: cameras, links and control equipment that keep running when grid and generator both fail. ceo@fogtechnexus.space",
+    "youtubeTitle": "Solar-hybrid power for remote and off-grid installations"
+  },
+  "music": "music/bed-exec.wav",
+  "credits": "Imagery: MTA (CC BY 2.0)"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "AD-20261105-AM",
+  "style": "executive",
+  "textStyle": "bold",
+  "division": "FOG Cybersecurity",
+  "service": "",
+  "sector": "Oil, gas & power",
+  "audience": "CIO, CISO and CEO",
+  "format": "Capability explainer",
+  "targetSeconds": 70,
+  "title": "Securing the networks that run your plant",
+  "scenes": [
+    {
+      "kind": "title",
+      "image": "media/exec/control-room-top.jpg",
+      "eyebrow": "Operational technology",
+      "headline": "The network that runs your plant is now a target.",
+      "voice": "The network that runs your plant was built for reliability, not for attackers. Today it is often connected to the office network, and to the internet beyond it.",
+      "focus": "50% 40%"
+    },
+    {
+      "kind": "statement",
+      "image": "media/exec/datacentre.jpg",
+      "eyebrow": "The risk",
+      "headline": "One weak link reaches the control systems.",
+      "lines": [
+        "Flat networks with no separation",
+        "Remote access left open for vendors",
+        "No record of what moves where"
+      ],
+      "voice": "On a flat network, one infected laptop or one open remote connection for a vendor can reach the systems that control production, and nobody can see what moved where. Attackers know that production systems are rarely patched, and that every hour of downtime is expensive.",
+      "focus": "88% 50%"
+    },
+    {
+      "kind": "process",
+      "image": "media/exec/server-racks.jpg",
+      "eyebrow": "How we secure it",
+      "headline": "Separate, control, and watch.",
+      "items": [
+        "Security assessment",
+        "Network segmentation",
+        "Controlled remote access",
+        "Continuous monitoring"
+      ],
+      "voice": "FOG Technologies Nexus starts with an assessment of how your plant network really works. Then we separate operational systems from the office, control remote access, and monitor the traffic that crosses between them. Your team receives a clear report, and a plan it can maintain.",
+      "focus": "60% 50%"
+    },
+    {
+      "kind": "cta",
+      "headline": "Request an executive briefing",
+      "lines": [
+        "ceo@fogtechnexus.space",
+        "+234 814 835 5789",
+        "fogtechnexus.space"
+      ],
+      "voice": "It all starts with a careful assessment of your plant network. Request an executive briefing, and write to CEO at fogtechnexus.space."
+    }
+  ],
+  "captions": {
+    "linkedin": "The network that runs your plant was built for reliability, not for attackers, and today it is often connected to the office and the internet.\n\nOn a flat network, one infected laptop or one open vendor connection can reach the systems that control production. FOG Technologies Nexus starts with an assessment, then separates operational systems from the office, controls remote access and monitors what crosses between them.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "Plant networks were built for reliability, not attackers. Segment them, control remote access, monitor what moves. It starts with an assessment. ceo@fogtechnexus.space",
+    "youtubeTitle": "Securing the networks that run your plant"
+  },
+  "music": "music/bed-exec.wav",
+  "credits": "Imagery: ESO (CC BY 4.0) · CSIRO (CC BY 3.0)"
+}

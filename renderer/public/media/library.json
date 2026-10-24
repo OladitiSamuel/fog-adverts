@@ -66,6 +66,30 @@
       "focus": "50% 40%",
       "credit": null,
       "tags": "cctv camera building office headquarters estate security access"
+    },
+    {
+      "file": "media/exec/solar-farm-aerial.jpg",
+      "focus": "50% 50%",
+      "credit": null,
+      "tags": "solar farm panels energy power hybrid renewable off-grid remote aerial backup batteries"
+    },
+    {
+      "file": "media/exec/solar-array.jpg",
+      "focus": "50% 45%",
+      "credit": null,
+      "tags": "solar panels array energy power hybrid battery inverter renewable backup generator"
+    },
+    {
+      "file": "media/exec/microwave-tower.jpg",
+      "focus": "55% 40%",
+      "credit": "Kkiefuik (CC BY 4.0)",
+      "tags": "tower link links wireless microwave point-to-point radio telecom network connectivity sites kilometres backbone fibre"
+    },
+    {
+      "file": "media/exec/telecom-tower.jpg",
+      "focus": "50% 40%",
+      "credit": null,
+      "tags": "telecom telecommunications tower base station mast network connectivity edge remote site"
     }
   ]
 }
