@@ -3,6 +3,7 @@
 #   voice/chain.sh AD-…
 set -uo pipefail
 cd "$(dirname "$0")"
+mkdir -p work
 for ID in "$@"; do
   if ! grep -q "caption words" work/$ID.voice.log 2>/dev/null; then
     ./voice_batch_v2.sh $ID 2>&1 | tee work/$ID.voice.log
