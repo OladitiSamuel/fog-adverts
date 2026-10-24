@@ -20,7 +20,8 @@ on:
         default: ""
 
 concurrency:
-  group: advert-render
+  # Real worker runs never overlap; manual test renders run side by side.
+  group: advert-render-${{ inputs.test_spec || 'worker' }}
   cancel-in-progress: false
 
 permissions:
