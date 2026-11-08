@@ -8,7 +8,7 @@
   "audience": "CEO / MD and board",
   "format": "Executive briefing",
   "targetSeconds": 85,
-  "title": "Oil, gas and power: one accountable partner for security, power and networks",
+  "title": "Oil, gas and power: one accountable partner for security, networks and monitoring",
   "scenes": [
     {
       "kind": "title",
@@ -25,11 +25,11 @@
       "headline": "Four systems that must work as one.",
       "lines": [
         "Perimeter security and surveillance",
-        "Reliable backup power",
+        "UPS-backed equipment",
         "A link back to base",
         "A control room that sees it all"
       ],
-      "voice": "Each of these sites needs four things working together. Perimeter security and surveillance, reliable backup power, a communication link back to base, and a control room that sees everything as it happens.",
+      "voice": "Each of these sites needs four things working together. Perimeter security and surveillance, equipment backed by a UPS, a communication link back to base, and a control room that sees everything as it happens.",
       "focus": "35% 70%"
     },
     {
@@ -52,18 +52,18 @@
         "Commissioning",
         "Maintenance"
       ],
-      "voice": "FOG Technologies Nexus designs, installs and maintains all four as one system. We survey every site first, design security, power and links together, commission them with your team, and maintain them after handover.",
+      "voice": "FOG Technologies Nexus designs, installs and maintains all four as one system. We survey every site first, design security, UPS backup and links together, commission them with your team, and maintain them after handover.",
       "focus": "45% 40%"
     },
     {
       "kind": "map",
-      "eyebrow": "Across Nigeria",
-      "headline": "Wherever your sites are.",
+      "eyebrow": "From Ibadan",
+      "headline": "One team, mobilised to your sites.",
       "lines": [
         "Depots · Tank farms · Flow stations",
         "Substations · Offices · Control rooms"
       ],
-      "voice": "Our team works from Ibadan, and travels to your sites wherever they are in Nigeria."
+      "voice": "Our team works from Ibadan, and mobilises to sites elsewhere by agreement."
     },
     {
       "kind": "cta",
@@ -77,9 +77,9 @@
     }
   ],
   "captions": {
-    "linkedin": "In oil, gas and power, the most critical sites are often the most remote: depots, tank farms, flow stations and substations.\n\nEach needs perimeter security, reliable backup power, a link back to base and a control room, working as one. When they come from different vendors, the gaps between them become your risk. FOG Technologies Nexus designs, installs and maintains all four as one system, wherever your sites are in Nigeria.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
-    "x": "Remote depots, tank farms and flow stations need security, power, links and a control room working as one. One accountable partner: FOG Technologies Nexus. ceo@fogtechnexus.space",
-    "youtubeTitle": "Oil, gas and power: one partner for security, power and networks"
+    "linkedin": "In oil, gas and power, the most critical sites are often the most remote: depots, tank farms, flow stations and substations.\n\nEach needs perimeter security, UPS-backed equipment, a link back to base and a control room, working as one. When they come from different vendors, the gaps between them become your risk. FOG Technologies Nexus designs, installs and maintains all four as one system.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "Remote depots, tank farms and flow stations need security, UPS backup, links and a control room working as one. One accountable partner: FOG Technologies Nexus. ceo@fogtechnexus.space",
+    "youtubeTitle": "Oil, gas and power: one partner for security, networks and monitoring"
   },
   "music": "music/bed-exec.wav",
   "credits": "Imagery: Zeev Stein / PikiWiki (CC BY 2.5) · MTA (CC BY 2.0)"

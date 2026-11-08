@@ -444,7 +444,7 @@ const Closing: React.FC<{ scene: Scene; credits?: string }> = ({ scene, credits 
         </div>
       </div>
       <div style={{ position: "absolute", bottom: L.tall ? L.H * 0.2 : 70, left: L.padX, right: L.padX, textAlign: "center", fontFamily: body, fontWeight: 500, fontSize: 24, letterSpacing: "4px", textTransform: "uppercase", color: "#f3eee480", opacity: a(50) }}>
-        Ibadan · Working across Nigeria
+        Ibadan · Business name BN 9991684
         {credits ? <div style={{ marginTop: 14, fontSize: 17, letterSpacing: "0.5px", textTransform: "none", color: "#f3eee455" }}>{credits}</div> : null}
       </div>
     </AbsoluteFill>

@@ -32,18 +32,14 @@
     {
       "kind": "pillars",
       "eyebrow": "One partner",
-      "headline": "Eight capabilities. One accountable team.",
+      "headline": "Four divisions. One accountable team.",
       "items": [
         "Security & surveillance",
-        "Solar & energy",
-        "Networks & data centres",
-        "Cybersecurity",
+        "Networks & infrastructure",
         "Software & digital",
-        "AI & data science",
-        "Automation & IoT",
-        "Communications"
+        "Cybersecurity"
       ],
-      "voice": "FOG Technologies Nexus brings it together. Security and surveillance, solar and energy, networks and data centres, and cybersecurity. Software, AI and data, automation, and communications. All designed, delivered and supported by one accountable team."
+      "voice": "FOG Technologies Nexus brings it together. Security and surveillance, networks and infrastructure, software and digital, and cybersecurity. All designed, delivered and supported by one accountable team."
     },
     {
       "kind": "process",
@@ -68,7 +64,7 @@
         "Energy · Banking · Manufacturing · Healthcare",
         "Estates · Campuses · Logistics · Public institutions"
       ],
-      "voice": "For energy companies, banks, manufacturers and hospitals. For estates, campuses, logistics operators and public institutions across Nigeria. That means fewer points of failure, and one partner who owns the fix."
+      "voice": "For energy companies, banks, manufacturers and hospitals. For estates, campuses, logistics operators and public institutions. That means fewer points of failure, and one partner who owns the fix."
     },
     {
       "kind": "cta",
@@ -82,8 +78,8 @@
     }
   ],
   "captions": {
-    "linkedin": "Every serious organisation runs on infrastructure its leaders rarely see: power, networks, security and data. You see it on the day it fails, and too often every vendor says the problem belongs to someone else.\n\nFOG Technologies Nexus brings eight capabilities under one accountable team: security and surveillance, solar and energy, networks and data centres, cybersecurity, software, AI and data science, automation and IoT, and communications. We survey first, quote itemised, commission with your team and hand over full documentation.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
-    "x": "One accountable partner for security, power, networks, cybersecurity and software, built for organisations that cannot afford downtime. Request an executive briefing: ceo@fogtechnexus.space",
+    "linkedin": "Every serious organisation runs on infrastructure its leaders rarely see: power, networks, security and data. You see it on the day it fails, and too often every vendor says the problem belongs to someone else.\n\nFOG Technologies Nexus brings four divisions under one accountable team: security and surveillance, networks and infrastructure, software and digital, and cybersecurity. We survey first, quote itemised, commission with your team and hand over full documentation.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "One accountable partner for security, networks, software and cybersecurity, built for organisations that cannot afford downtime. Request an executive briefing: ceo@fogtechnexus.space",
     "youtubeTitle": "FOG Technologies Nexus: one accountable infrastructure partner"
   },
   "music": "music/bed-exec.wav",
