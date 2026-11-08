@@ -8,14 +8,14 @@
   "audience": "CEO and COO",
   "format": "Story / walkthrough",
   "targetSeconds": 75,
-  "title": "Eight divisions, one accountable team",
+  "title": "Four divisions, one accountable team",
   "scenes": [
     {
       "kind": "title",
       "image": "media/exec/engineer-hivis.jpg",
       "eyebrow": "Integrated delivery",
-      "headline": "Eight divisions. One accountable team.",
-      "voice": "Most large organisations buy their infrastructure in pieces, from many different vendors. One installs the cameras, another the power, and others the network and the software.",
+      "headline": "Four divisions. One accountable team.",
+      "voice": "Most large organisations buy their infrastructure in pieces, from many different vendors. One installs the cameras, another the network, and others the software and the security testing.",
       "focus": "45% 40%"
     },
     {
@@ -37,15 +37,11 @@
       "headline": "Designed together from the first survey.",
       "items": [
         "Security & surveillance",
-        "Solar & energy",
-        "Networks & data centres",
-        "Cybersecurity",
+        "Networks & infrastructure",
         "Software & digital",
-        "AI & data science",
-        "Automation & IoT",
-        "Communications"
+        "Cybersecurity"
       ],
-      "voice": "At FOG Technologies Nexus, we work in a very different way. Security, power, networks and cybersecurity, with software, data, automation and communications, are planned together as one design, from the very first site survey."
+      "voice": "At FOG Technologies Nexus, we work in a very different way. Security, networks, software and cybersecurity are planned together as one design, from the very first site survey."
     },
     {
       "kind": "statement",
@@ -85,9 +81,9 @@
     }
   ],
   "captions": {
-    "linkedin": "Most large organisations buy infrastructure in pieces: one vendor for cameras, another for power, others for the network and software. When something fails, the problem sits between the contracts.\n\nFOG Technologies Nexus plans security, power, networks, cybersecurity, software, data, automation and communications as one design, delivered by one project lead, supported by one team, and handed over with one set of documentation.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "linkedin": "Most large organisations buy infrastructure in pieces: one vendor for cameras, another for the network, others for software and security testing. When something fails, the problem sits between the contracts.\n\nFOG Technologies Nexus plans security, networks, software and cybersecurity as one design, delivered by one project lead, supported by one team, and handed over with one set of documentation.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
     "x": "One plan. One point of accountability. One set of documentation. Integrated infrastructure delivery from FOG Technologies Nexus. Request an executive briefing: ceo@fogtechnexus.space",
-    "youtubeTitle": "Eight divisions, one accountable team | FOG Technologies Nexus"
+    "youtubeTitle": "Four divisions, one accountable team | FOG Technologies Nexus"
   },
   "music": "music/bed-exec.wav",
   "credits": "Imagery: MTA (CC BY 2.0) · ESO (CC BY 4.0) · CSIRO (CC BY 3.0)"

@@ -2,20 +2,20 @@
   "id": "AD-20261104-AM",
   "style": "executive",
   "textStyle": "bold",
-  "division": "FOG Solar & Energy",
+  "division": "FOG Networks & Infrastructure",
   "service": "",
   "sector": "Oil, gas & power",
-  "audience": "COO and CFO",
+  "audience": "CIO / CTO",
   "format": "Capability explainer",
   "targetSeconds": 60,
-  "title": "Solar-hybrid power for remote and off-grid installations",
+  "title": "UPS-backed cameras and links for remote installations",
   "scenes": [
     {
       "kind": "title",
-      "image": "media/exec/solar-farm-aerial.jpg",
-      "eyebrow": "Power for remote sites",
-      "headline": "When the grid fails and the generator stops, what keeps running?",
-      "voice": "At a remote site, the grid fails often, and sooner or later the generator stops as well. When it does, the systems that protect the site go down with it.",
+      "image": "media/exec/telecom-tower.jpg",
+      "eyebrow": "Resilience for remote sites",
+      "headline": "When the grid fails and the generator is slow to start, what keeps recording?",
+      "voice": "At a remote site, the grid fails often, and the generator takes time to start. In that gap, the systems that protect the site can drop, and the evidence goes with them.",
       "focus": "50% 50%"
     },
     {
@@ -34,15 +34,15 @@
     {
       "kind": "process",
       "image": "media/exec/engineer-hivis.jpg",
-      "eyebrow": "Solar-hybrid design",
-      "headline": "Sized from your real load, not a guess.",
+      "eyebrow": "UPS-backed design",
+      "headline": "Ride-through sized from your real load.",
       "items": [
         "Load survey",
-        "Solar and battery sizing",
-        "Automatic changeover",
-        "Remote monitoring"
+        "UPS sizing per cabinet",
+        "Tested changeover",
+        "Remote health checks"
       ],
-      "voice": "FOG Technologies Nexus designs solar-hybrid systems for these critical loads. We survey the real load first, size the solar and batteries to match it, add automatic changeover between sources, and monitor the system remotely. The generator stays as the last layer, used only when it is really needed.",
+      "voice": "FOG Technologies Nexus designs UPS backup for these critical loads. We measure the real load of each cabinet, size the UPS to carry recorders, switches and links through every changeover, test it with your team, and check its health remotely afterwards.",
       "focus": "45% 40%"
     },
     {
@@ -53,14 +53,14 @@
         "+234 814 835 5789",
         "fogtechnexus.space"
       ],
-      "voice": "Request an executive briefing on power for your remote sites. Write to CEO at fogtechnexus.space."
+      "voice": "Request an executive briefing on resilience for your remote sites. Write to CEO at fogtechnexus.space."
     }
   ],
   "captions": {
-    "linkedin": "At a remote site the grid fails often, and sooner or later the generator stops too. When it does, the systems that protect the site go down with it.\n\nFOG Technologies Nexus designs solar-hybrid power for the loads that cannot drop: cameras and recorders, communication links, and control equipment. We survey the real load, size solar and batteries to match, add automatic changeover and monitor the system remotely.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
-    "x": "Solar-hybrid power for remote and off-grid sites: cameras, links and control equipment that keep running when grid and generator both fail. ceo@fogtechnexus.space",
-    "youtubeTitle": "Solar-hybrid power for remote and off-grid installations"
+    "linkedin": "At a remote site the grid fails often, and the generator takes time to start. In that gap, the systems that protect the site can drop.\n\nFOG Technologies Nexus designs UPS backup for the loads that cannot drop: cameras and recorders, communication links, and control equipment. We measure each cabinet's real load, size the UPS to match, test the changeover with your team and check its health remotely.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "UPS-backed cameras, recorders and links for remote sites: evidence and alarms that survive every grid and generator changeover. ceo@fogtechnexus.space",
+    "youtubeTitle": "UPS-backed cameras and links for remote installations"
   },
   "music": "music/bed-exec.wav",
-  "credits": "Imagery: MTA (CC BY 2.0)"
+  "credits": "Imagery: MTA (CC BY 2.0) · Gadfium (CC0)"
 }

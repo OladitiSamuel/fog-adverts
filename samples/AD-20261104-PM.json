@@ -2,20 +2,20 @@
   "id": "AD-20261104-PM",
   "style": "executive",
   "textStyle": "bold",
-  "division": "FOG Solar & Energy",
+  "division": "FOG Networks & Infrastructure",
   "service": "",
   "sector": "Oil, gas & power",
   "audience": "Senior leadership",
   "format": "Myth vs reality",
   "targetSeconds": 40,
-  "title": "Myth: a generator is enough backup for critical systems",
+  "title": "Myth: a generator is enough backup for cameras and networks",
   "scenes": [
     {
       "kind": "title",
       "image": "media/exec/refinery-night.jpg",
       "eyebrow": "Myth",
-      "headline": "A generator is enough backup for critical systems.",
-      "voice": "Many organisations believe a generator is all the backup their critical systems will ever need.",
+      "headline": "A generator is enough backup for cameras and networks.",
+      "voice": "Many organisations believe a generator is all the backup their cameras and networks will ever need.",
       "focus": "40% 60%"
     },
     {
@@ -34,14 +34,14 @@
     {
       "kind": "pillars",
       "eyebrow": "What works",
-      "headline": "Layer the backup.",
+      "headline": "Protect the systems that record and alert.",
       "items": [
         "UPS for instant ride-through",
-        "Batteries for the hours",
-        "Solar to recharge",
+        "Sized to each cabinet's load",
+        "Tested changeover",
         "Generator as the last layer"
       ],
-      "voice": "Critical loads need several layers of protection working together. A UPS for the first seconds, batteries for the hours, solar to recharge them, and the generator as the last layer."
+      "voice": "Critical security and network equipment needs a UPS that carries it through the first seconds and minutes, sized to each cabinet's real load and tested with your team, with the generator as the last layer."
     },
     {
       "kind": "cta",
@@ -51,13 +51,13 @@
         "+234 814 835 5789",
         "fogtechnexus.space"
       ],
-      "voice": "FOG Technologies Nexus designs layered backup power for critical systems. Request an executive briefing at CEO at fogtechnexus.space."
+      "voice": "FOG Technologies Nexus designs UPS backup for critical security and network systems. Request an executive briefing at CEO at fogtechnexus.space."
     }
   ],
   "captions": {
-    "linkedin": "Myth: a generator is enough backup for critical systems.\n\nReality: it takes time to start, depends on fuel reaching the site, and a missed service shows up on the worst day. Critical loads need layers: a UPS for the first seconds, batteries for the hours, solar to recharge them, and the generator as the last layer.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
-    "x": "Myth: a generator is enough backup. Reality: critical loads need UPS, batteries and solar layered together. ceo@fogtechnexus.space",
-    "youtubeTitle": "Myth: a generator is enough backup for critical systems"
+    "linkedin": "Myth: a generator is enough backup for cameras and networks.\n\nReality: it takes time to start, depends on fuel reaching the site, and a missed service shows up on the worst day. Recorders, switches and links need UPS ride-through, sized to each cabinet's real load and tested, with the generator as the last layer.\n\nRequest an executive briefing: ceo@fogtechnexus.space · +234 814 835 5789",
+    "x": "Myth: a generator is enough backup. Reality: cameras, recorders and switches need tested UPS ride-through. ceo@fogtechnexus.space",
+    "youtubeTitle": "Myth: a generator is enough backup for cameras and networks"
   },
   "music": "music/bed-exec.wav",
   "credits": "Imagery: Zeev Stein / PikiWiki (CC BY 2.5) · ESO (CC BY 4.0)"

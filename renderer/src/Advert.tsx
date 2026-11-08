@@ -220,7 +220,7 @@ const CtaCard: React.FC<{ scene: Scene }> = ({ scene }) => {
         ))}
       </div>
       <div style={{ position: "absolute", top: 1490, left: 80, right: 80, textAlign: "center", fontSize: 34, letterSpacing: "2px", color: C.silver, textTransform: "uppercase", opacity: a(46) }}>
-        FOG Technologies Nexus · Ibadan · Nigeria-wide
+        FOG Technologies Nexus · Ibadan · BN 9991684
       </div>
     </AbsoluteFill>
   );
